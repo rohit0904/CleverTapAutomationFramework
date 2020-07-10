@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+
+    <parameter name="url" value="https://eu1.dashboard.clevertap.com/login.html"/>
+    <parameter name="username" value="rohit.singh@clevertap.com"/>
+    <parameter name="password" value="4321@Test"/>
+  <test name="PackageTest">
+    <packages>
+     <package name="com.clevertap.Campaign_Creation_Cases"/>
+    </packages>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

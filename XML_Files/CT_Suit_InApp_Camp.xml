@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+
+
+ <listeners>
+   <listener class-name="ExtentReporteFile.TestListeners"></listener>
+   <listener class-name="ES_Settings.ExecutionListener"></listener>
+</listeners>
+
+  <test name="InApp Campaigns Conditions">
+    <classes>
+      <class name="Campaign_Creation_Cases.InAppConditionTest"/>
+    </classes>
+  </test>
+
+  <test name="InApp Campaigns Conditions-Types">
+    <classes>
+      <class name="Campaign_Creation_Cases.InAppWhatTest"/>
+    </classes>
+  </test>
+
+  <test name="InApp All Templates">
+    <classes>
+      <class name="Campaign_Creation_Cases.InAppTemplateTest"/>
+    </classes>
+  </test>
+
+  <test name="Mobile Push Test">
+    <classes>
+      <class name="Campaign_Creation_Cases.MobilePushTest"/>
+    </classes>
+  </test>
+
+  <test name="SMS Test">
+    <classes>
+      <class name="Campaign_Creation_Cases.SmsTest"/>
+    </classes>
+  </test>
+
+  <test name="App Inbox Test">
+    <classes>
+      <class name="Campaign_Creation_Cases.AppInboxTest"/>
+    </classes>
+  </test>
+
+  <test name="Custom Board Test">
+    <classes>
+      <class name="CT_Boards_Cases.CustomBoardTest"/>
+    </classes>
+  </test>
+
+  <test name="Daily Board Test">
+  <classes>
+    <class name="CT_Boards_Cases.DailyBoardTest"/>
+  </classes>
+</test>
+
+  <test name="Analytics Test">
+    <classes>
+      <class name="CT_Analytics_Cases.AnalyticsTest"/>
+    </classes>
+  </test>
+
+  <test name="Find People Test">
+    <classes>
+      <class name="CT_Segment_Cases.FindPeopleTest"/>
+    </classes>
+  </test>
+
+  <test name="Segment  Test">
+    <classes>
+      <class name="CT_Segment_Cases.SegmentTest"/>
+    </classes>
+  </test>
+  <test name="RFM  Test">
+    <classes>
+      <class name="CT_Segment_Cases.RFMTest"/>
+    </classes>
+  </test>
+
+  <test name="CLEVERTAP Pages Test">
+    <classes>
+      <class name="CT_CampaignPage_Cases.CampPageTest"/>
+    </classes>
+  </test>
+
+  <test name="Setting Pages Test">
+    <classes>
+      <class name="CT_CampaignPage_Cases.SettingPageTest"/>
+    </classes>
+  </test>
+
+   <!-- Test -->
+</suite> <!-- Suite -->
